@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Testing_Calculator_API" class="navigator-link">
+              <span class="suite-name border-passed">Testing Calculator API</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Testing_Calculator_API" class="navigator-link ">
+                    <span>C:\Users\Ami\eclipse-workspace\Calculator\CalculatorAPITestcases.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Testing_Calculator_API" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Testing_Calculator_API" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Testing_Calculator_API" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Testing_Calculator_API" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Testing_Calculator_API" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Testing_Calculator_API" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testing_Calculator_API" class="hide-methods passed suite-Testing_Calculator_API"> (hide)</a> <!-- hide-methods passed suite-Testing_Calculator_API -->
+                      <a href="#" panel-name="suite-Testing_Calculator_API" class="show-methods passed suite-Testing_Calculator_API"> (show)</a> <!-- show-methods passed suite-Testing_Calculator_API -->
+                    </span>
+                    <div class="method-list-content passed suite-Testing_Calculator_API">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Calculator_API" title="com.JavaProg.Calculator.TestingSubstractionTestCases" class="method navigator-link" hash-for-method="SubstractionPositiveNumbers">SubstractionPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Calculator_API" title="com.JavaProg.Calculator.AdditionTestCases" class="method navigator-link" hash-for-method="TestAdditionWithOnePositiveOneNegative">TestAdditionWithOnePositiveOneNegative</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Calculator_API" title="com.JavaProg.Calculator.AdditionTestCases" class="method navigator-link" hash-for-method="TestAdditionWithPositiveNumbers">TestAdditionWithPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Calculator_API" title="com.JavaProg.Calculator.AdditionTestCases" class="method navigator-link" hash-for-method="TestAdditionWithZeroNumbers">TestAdditionWithZeroNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Calculator_API" title="com.JavaProg.Calculator.TestDivision" class="method navigator-link" hash-for-method="TestDivisionWithPositiveNumbers">TestDivisionWithPositiveNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Calculator_API" title="com.JavaProg.Calculator.TestDivision" class="method navigator-link" hash-for-method="TestDivisionWithnegativeNumbers">TestDivisionWithnegativeNumbers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Calculator_API" title="com.JavaProg.Calculator.TestMultiplication" class="method navigator-link" hash-for-method="TestMultiplicationWithPositiveNumbers(1000, 2000, 2000000)">TestMultiplicationWithPositiveNumbers(1000, 2000, 2000000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Calculator_API" title="com.JavaProg.Calculator.TestMultiplication" class="method navigator-link" hash-for-method="TestMultiplicationWithPositiveNumbers(3, 4, 12)">TestMultiplicationWithPositiveNumbers(3, 4, 12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing_Calculator_API" title="com.JavaProg.Calculator.TestMultiplication" class="method navigator-link" hash-for-method="TestMultiplicationWithPositiveNumbers(12, 10, 120)">TestMultiplicationWithPositiveNumbers(12, 10, 120)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Testing_Calculator_API -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Testing_Calculator_API" class="panel Testing_Calculator_API">
+          <div class="suite-Testing_Calculator_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.JavaProg.Calculator.TestingSubstractionTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SubstractionPositiveNumbers">
+                  </a> <!-- SubstractionPositiveNumbers -->
+                  <span class="method-name">SubstractionPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_Calculator_API-class-passed -->
+          <div class="suite-Testing_Calculator_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.JavaProg.Calculator.AdditionTestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionWithOnePositiveOneNegative">
+                  </a> <!-- TestAdditionWithOnePositiveOneNegative -->
+                  <span class="method-name">TestAdditionWithOnePositiveOneNegative</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionWithPositiveNumbers">
+                  </a> <!-- TestAdditionWithPositiveNumbers -->
+                  <span class="method-name">TestAdditionWithPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestAdditionWithZeroNumbers">
+                  </a> <!-- TestAdditionWithZeroNumbers -->
+                  <span class="method-name">TestAdditionWithZeroNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_Calculator_API-class-passed -->
+          <div class="suite-Testing_Calculator_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.JavaProg.Calculator.TestMultiplication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMultiplicationWithPositiveNumbers(1000, 2000, 2000000)">
+                  </a> <!-- TestMultiplicationWithPositiveNumbers(1000, 2000, 2000000) -->
+                  <span class="method-name">TestMultiplicationWithPositiveNumbers</span>
+                  <span class="parameters">(1000, 2000, 2000000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMultiplicationWithPositiveNumbers(3, 4, 12)">
+                  </a> <!-- TestMultiplicationWithPositiveNumbers(3, 4, 12) -->
+                  <span class="method-name">TestMultiplicationWithPositiveNumbers</span>
+                  <span class="parameters">(3, 4, 12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestMultiplicationWithPositiveNumbers(12, 10, 120)">
+                  </a> <!-- TestMultiplicationWithPositiveNumbers(12, 10, 120) -->
+                  <span class="method-name">TestMultiplicationWithPositiveNumbers</span>
+                  <span class="parameters">(12, 10, 120)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_Calculator_API-class-passed -->
+          <div class="suite-Testing_Calculator_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.JavaProg.Calculator.TestDivision</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDivisionWithPositiveNumbers">
+                  </a> <!-- TestDivisionWithPositiveNumbers -->
+                  <span class="method-name">TestDivisionWithPositiveNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestDivisionWithnegativeNumbers">
+                  </a> <!-- TestDivisionWithnegativeNumbers -->
+                  <span class="method-name">TestDivisionWithnegativeNumbers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_Calculator_API-class-passed -->
+        </div> <!-- panel Testing_Calculator_API -->
+        <div panel-name="test-xml-Testing_Calculator_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Ami\eclipse-workspace\Calculator\CalculatorAPITestcases.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Testing Calculator API&quot;&gt;
+  &lt;parameter name=&quot;RequestID&quot; value=&quot;Rwq101&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing Addition Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.JavaProg.Calculator.AdditionTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing Addition Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing Substraction Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.JavaProg.Calculator.TestingSubstractionTestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing Substraction Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing Multiplication Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.JavaProg.Calculator.TestMultiplication&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing Multiplication Functionality --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testing Division Functionality&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.JavaProg.Calculator.TestDivision&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Testing Division Functionality --&gt;
+&lt;/suite&gt; &lt;!-- Testing Calculator API --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Testing_Calculator_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Testing Calculator API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Testing Addition Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testing Substraction Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testing Multiplication Functionality (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Testing Division Functionality (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Testing_Calculator_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Testing Calculator API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">RegressionTest</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">SubstractionPositiveNumbers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestAdditionWithOnePositiveOneNegative</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestAdditionWithPositiveNumbers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestDivisionWithnegativeNumbers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">TestMultiplicationWithPositiveNumbers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Testing_Calculator_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Testing Calculator API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Testing_Calculator_API');
+function tableData_Testing_Calculator_API() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestMultiplicationWithPositiveNumbers')
+data.setCell(0, 2, 'com.JavaProg.Calculator.TestMultiplication')
+data.setCell(0, 3, 46);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestAdditionWithPositiveNumbers')
+data.setCell(1, 2, 'com.JavaProg.Calculator.AdditionTestCases')
+data.setCell(1, 3, 30);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestDivisionWithPositiveNumbers')
+data.setCell(2, 2, 'com.JavaProg.Calculator.TestDivision')
+data.setCell(2, 3, 13);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestAdditionWithZeroNumbers')
+data.setCell(3, 2, 'com.JavaProg.Calculator.AdditionTestCases')
+data.setCell(3, 3, 10);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestAdditionWithOnePositiveOneNegative')
+data.setCell(4, 2, 'com.JavaProg.Calculator.AdditionTestCases')
+data.setCell(4, 3, 8);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SubstractionPositiveNumbers')
+data.setCell(5, 2, 'com.JavaProg.Calculator.TestingSubstractionTestCases')
+data.setCell(5, 3, 7);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestMultiplicationWithPositiveNumbers')
+data.setCell(6, 2, 'com.JavaProg.Calculator.TestMultiplication')
+data.setCell(6, 3, 7);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestMultiplicationWithPositiveNumbers')
+data.setCell(7, 2, 'com.JavaProg.Calculator.TestMultiplication')
+data.setCell(7, 3, 6);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestDivisionWithnegativeNumbers')
+data.setCell(8, 2, 'com.JavaProg.Calculator.TestDivision')
+data.setCell(8, 3, 5);
+window.suiteTableData['Testing_Calculator_API']= { tableData: data, tableDiv: 'times-div-Testing_Calculator_API'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 132 ms</span>
+              <div id="times-div-Testing_Calculator_API">
+              </div> <!-- times-div-Testing_Calculator_API -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Testing_Calculator_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Testing Calculator API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Testing_Calculator_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Testing_Calculator_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.JavaProg.Calculator.TestMultiplication</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">CreateResultReport(Rwq101)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.JavaProg.Calculator.AdditionTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">117 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">Reintialise</span>
+                <span class="method-start">155 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionWithPositiveNumbers</span>
+                <span class="method-start">163 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Reintialise</span>
+                <span class="method-start">230 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionWithOnePositiveOneNegative</span>
+                <span class="method-start">240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Reintialise</span>
+                <span class="method-start">253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestAdditionWithZeroNumbers</span>
+                <span class="method-start">258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">Teerdown</span>
+                <span class="method-start">320 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.JavaProg.Calculator.TestingSubstractionTestCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">833 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">Reinitialise</span>
+                <span class="method-start">839 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SubstractionPositiveNumbers</span>
+                <span class="method-start">842 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.JavaProg.Calculator.TestMultiplication</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Init</span>
+                <span class="method-start">909 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">ReintializingResult</span>
+                <span class="method-start">918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestMultiplicationWithPositiveNumbers(3, 4, 12)</span>
+                <span class="method-start">919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ReintializingResult</span>
+                <span class="method-start">931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestMultiplicationWithPositiveNumbers(12, 10, 120)</span>
+                <span class="method-start">933 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">ReintializingResult</span>
+                <span class="method-start">991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestMultiplicationWithPositiveNumbers(1000, 2000, 2000000)</span>
+                <span class="method-start">992 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.JavaProg.Calculator.TestDivision</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">CreateObj</span>
+                <span class="method-start">1041 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">InitialiseResult</span>
+                <span class="method-start">1043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDivisionWithPositiveNumbers</span>
+                <span class="method-start">1043 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">1070 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">InitialiseResult</span>
+                <span class="method-start">1088 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestDivisionWithnegativeNumbers</span>
+                <span class="method-start">1098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AfterMethod</span>
+                <span class="method-start">1109 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ReleaseObj</span>
+                <span class="method-start">1112 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.JavaProg.Calculator.TestMultiplication</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">CopyResult(Rwq101)</span>
+                <span class="method-start">1135 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

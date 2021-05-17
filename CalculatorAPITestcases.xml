@@ -1,0 +1,27 @@
+<suite name="Testing Calculator API">
+<parameter name="RequestID" value="Rwq101"/>
+	<test name= "Testing Addition Functionality">
+		<classes>
+		<class name="com.JavaProg.Calculator.AdditionTestCases"/>
+		
+		</classes>
+	</test>
+	<test name= "Testing Substraction Functionality">
+		<classes>
+		<class name="com.JavaProg.Calculator.TestingSubstractionTestCases"/>
+		
+		</classes>
+	</test>
+	<test name= "Testing Multiplication Functionality">
+		<classes>
+		<class name="com.JavaProg.Calculator.TestMultiplication"/>
+		
+		</classes>
+	</test>
+	<test name= "Testing Division Functionality">
+		<classes>
+		<class name="com.JavaProg.Calculator.TestDivision"/>
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,20 @@
+<suite name="RegressionTesting">
+<parameter name="RequestID" value="Regression1"/>
+<groups>
+	<run>
+		<include name="RegressionTest"/>
+	</run>
+</groups>
+<test name="AdditionTestCases">
+<classes>
+	<class name="com.JavaProg.Calculator.AdditionTestCases"/>
+</classes>
+
+</test>
+<test name="DivisionTestCases">
+<classes>
+	<class name="com.JavaProg.Calculator.TestDivision"/>
+</classes>
+
+</test>
+</suite>

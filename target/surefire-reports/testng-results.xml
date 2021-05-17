@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing Calculator API" duration-ms="763" started-at="2021-04-20T09:20:31 IST" finished-at="2021-04-20T09:20:32 IST">
+    <groups>
+    </groups>
+    <test name="Testing Addition Functionality" duration-ms="318" started-at="2021-04-20T09:20:31 IST" finished-at="2021-04-20T09:20:32 IST">
+      <class name="com.JavaProg.Calculator.AdditionTestCases">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.JavaProg.Calculator.AdditionTestCases@10bdf5e5]" name="init" is-config="true" duration-ms="6" started-at="2021-04-20T09:20:31 IST" finished-at="2021-04-20T09:20:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="Reintialise()[pri:0, instance:com.JavaProg.Calculator.AdditionTestCases@10bdf5e5]" name="Reintialise" is-config="true" duration-ms="11" started-at="2021-04-20T09:20:31 IST" finished-at="2021-04-20T09:20:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reintialise -->
+        <test-method status="PASS" signature="TestAdditionWithPositiveNumbers()[pri:1, instance:com.JavaProg.Calculator.AdditionTestCases@10bdf5e5]" name="TestAdditionWithPositiveNumbers" duration-ms="10" started-at="2021-04-20T09:20:31 IST" finished-at="2021-04-20T09:20:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithPositiveNumbers -->
+        <test-method status="PASS" signature="Reintialise()[pri:0, instance:com.JavaProg.Calculator.AdditionTestCases@10bdf5e5]" name="Reintialise" is-config="true" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reintialise -->
+        <test-method status="PASS" signature="TestAdditionWithOnePositiveOneNegative()[pri:2, instance:com.JavaProg.Calculator.AdditionTestCases@10bdf5e5]" name="TestAdditionWithOnePositiveOneNegative" duration-ms="0" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithOnePositiveOneNegative -->
+        <test-method status="PASS" signature="Reintialise()[pri:0, instance:com.JavaProg.Calculator.AdditionTestCases@10bdf5e5]" name="Reintialise" is-config="true" duration-ms="5" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reintialise -->
+        <test-method status="PASS" signature="TestAdditionWithZeroNumbers()[pri:3, instance:com.JavaProg.Calculator.AdditionTestCases@10bdf5e5]" name="TestAdditionWithZeroNumbers" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdditionWithZeroNumbers -->
+        <test-method status="PASS" signature="Teerdown()[pri:0, instance:com.JavaProg.Calculator.AdditionTestCases@10bdf5e5]" name="Teerdown" is-config="true" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teerdown -->
+      </class> <!-- com.JavaProg.Calculator.AdditionTestCases -->
+    </test> <!-- Testing Addition Functionality -->
+    <test name="Testing Substraction Functionality" duration-ms="4" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+      <class name="com.JavaProg.Calculator.TestingSubstractionTestCases">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.JavaProg.Calculator.TestingSubstractionTestCases@335eadca]" name="init" is-config="true" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="SubstractionPositiveNumbers()[pri:1, instance:com.JavaProg.Calculator.TestingSubstractionTestCases@335eadca]" name="SubstractionPositiveNumbers" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubstractionPositiveNumbers -->
+        <test-method status="PASS" signature="Reinitialise()[pri:0, instance:com.JavaProg.Calculator.TestingSubstractionTestCases@335eadca]" name="Reinitialise" is-config="true" duration-ms="0" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reinitialise -->
+      </class> <!-- com.JavaProg.Calculator.TestingSubstractionTestCases -->
+    </test> <!-- Testing Substraction Functionality -->
+    <test name="Testing Multiplication Functionality" duration-ms="134" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+      <class name="com.JavaProg.Calculator.TestMultiplication">
+        <test-method status="PASS" signature="Init()[pri:0, instance:com.JavaProg.Calculator.TestMultiplication@887af79]" name="Init" is-config="true" duration-ms="2" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method status="PASS" signature="ReintializingResult()[pri:0, instance:com.JavaProg.Calculator.TestMultiplication@887af79]" name="ReintializingResult" is-config="true" duration-ms="87" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReintializingResult -->
+        <test-method status="PASS" signature="TestMultiplicationWithPositiveNumbers(int,int,int)[pri:1, instance:com.JavaProg.Calculator.TestMultiplication@887af79]" name="TestMultiplicationWithPositiveNumbers" duration-ms="1" started-at="2021-04-20T09:20:32 IST" data-provider="ProvidePositiveIntegerValues" finished-at="2021-04-20T09:20:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithPositiveNumbers -->
+        <test-method status="PASS" signature="ReintializingResult()[pri:0, instance:com.JavaProg.Calculator.TestMultiplication@887af79]" name="ReintializingResult" is-config="true" duration-ms="0" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReintializingResult -->
+        <test-method status="PASS" signature="TestMultiplicationWithPositiveNumbers(int,int,int)[pri:1, instance:com.JavaProg.Calculator.TestMultiplication@887af79]" name="TestMultiplicationWithPositiveNumbers" duration-ms="0" started-at="2021-04-20T09:20:32 IST" data-provider="ProvidePositiveIntegerValues" finished-at="2021-04-20T09:20:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithPositiveNumbers -->
+        <test-method status="PASS" signature="ReintializingResult()[pri:0, instance:com.JavaProg.Calculator.TestMultiplication@887af79]" name="ReintializingResult" is-config="true" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReintializingResult -->
+        <test-method status="PASS" signature="TestMultiplicationWithPositiveNumbers(int,int,int)[pri:1, instance:com.JavaProg.Calculator.TestMultiplication@887af79]" name="TestMultiplicationWithPositiveNumbers" duration-ms="1" started-at="2021-04-20T09:20:32 IST" data-provider="ProvidePositiveIntegerValues" finished-at="2021-04-20T09:20:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2000000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMultiplicationWithPositiveNumbers -->
+      </class> <!-- com.JavaProg.Calculator.TestMultiplication -->
+    </test> <!-- Testing Multiplication Functionality -->
+    <test name="Testing Division Functionality" duration-ms="20" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+      <class name="com.JavaProg.Calculator.TestMultiplication">
+        <test-method status="PASS" signature="CreateResultReport()[pri:0, instance:com.JavaProg.Calculator.TestMultiplication@887af79]" name="CreateResultReport" is-config="true" duration-ms="204" started-at="2021-04-20T09:20:31 IST" finished-at="2021-04-20T09:20:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateResultReport -->
+        <test-method status="PASS" signature="CopyResult()[pri:0, instance:com.JavaProg.Calculator.TestMultiplication@887af79]" name="CopyResult" is-config="true" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyResult -->
+      </class> <!-- com.JavaProg.Calculator.TestMultiplication -->
+      <class name="com.JavaProg.Calculator.TestDivision">
+        <test-method status="PASS" signature="CreateObj()[pri:0, instance:com.JavaProg.Calculator.TestDivision@23e028a9]" name="CreateObj" is-config="true" duration-ms="0" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateObj -->
+        <test-method status="PASS" signature="InitialiseResult()[pri:0, instance:com.JavaProg.Calculator.TestDivision@23e028a9]" name="InitialiseResult" is-config="true" duration-ms="0" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialiseResult -->
+        <test-method status="PASS" signature="TestDivisionWithPositiveNumbers()[pri:1, instance:com.JavaProg.Calculator.TestDivision@23e028a9]" name="TestDivisionWithPositiveNumbers" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivisionWithPositiveNumbers -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.JavaProg.Calculator.TestDivision@23e028a9]" name="AfterMethod" is-config="true" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="InitialiseResult()[pri:0, instance:com.JavaProg.Calculator.TestDivision@23e028a9]" name="InitialiseResult" is-config="true" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitialiseResult -->
+        <test-method status="PASS" signature="TestDivisionWithnegativeNumbers()[pri:2, instance:com.JavaProg.Calculator.TestDivision@23e028a9]" name="TestDivisionWithnegativeNumbers" duration-ms="1" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDivisionWithnegativeNumbers -->
+        <test-method status="PASS" signature="AfterMethod()[pri:0, instance:com.JavaProg.Calculator.TestDivision@23e028a9]" name="AfterMethod" is-config="true" duration-ms="2" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method status="PASS" signature="ReleaseObj()[pri:0, instance:com.JavaProg.Calculator.TestDivision@23e028a9]" name="ReleaseObj" is-config="true" duration-ms="0" started-at="2021-04-20T09:20:32 IST" finished-at="2021-04-20T09:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReleaseObj -->
+      </class> <!-- com.JavaProg.Calculator.TestDivision -->
+    </test> <!-- Testing Division Functionality -->
+  </suite> <!-- Testing Calculator API -->
+</testng-results>
